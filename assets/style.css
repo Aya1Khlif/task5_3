@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #Layer_1 {
+    width: 20px;
+    height: 20px;
+  }
+  .img3 {
+    margin-left: 20px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 200px;
+    flex-wrap: wrap;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
+  }
+  .img3 a {
+    list-style: none;
+    text-decoration: none;
+  }
+  .img3:hover{
+    background-color: #53829df0;
+    color: white;
+  }
+  .what {
+    margin-left: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 100px;
+    flex-wrap: wrap;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
+  }
+  .what:hover{
+    background-color: #53829df0;
+    color: white;
+  }
+  .ph {
+  flex-wrap: wrap;
+    background-color: #eee;
+    opacity: 0; 
+    transition: opacity 1s; 
+  }
+  .card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  .lab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    position: relative  
+  
+  }
+  .font{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  }
+  .lab img{
+  width: 100vw;
+  height: 100%;
+  
+  }
+  button{
+    width: 90px;
+    height: 60px;
+    background-color: white;
+    border-radius: 30%;
+  }
+  button:hover{
+    background-color: #53829df0;
+    color: red;
+  }
+  #cards-container{
+    width: 100vw;
+    height: 400px;
+   display: flex;
+   flex-direction: row;
+   background-color: rgb(176, 161, 161);
+  }
+  .card{
+    background-color: rgba(246, 236, 236, 0.274);
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: c;
+  }
+  @media (max-width: 600px) {
+    .phonee {
+      width: 100%;
+    height: 100%;
+    }
+    .lab{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  @media (max-width: 300px) {
+    .phonee {
+      width: 100%;
+    height: 100%;
+    }
+    .lab{
+      width: 100%;
+      height: 100%;
+    }
+    #cards-container{
+      width: 100%;
+      height: 100%;
+  
+    }
+  }
+  
